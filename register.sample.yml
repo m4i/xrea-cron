@@ -1,0 +1,4 @@
+host:     s999.xrea.com
+id:       foo
+password: bar
+path:     path/to/cron.sh

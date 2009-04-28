@@ -1,0 +1,9 @@
+XREA の cron で毎分ジョブを実行させるためのスクリプト
+
+※ このスクリプトを使用しなくても SSH でログインし crontab -e で設定可能
+
+1. $ cp register{.sample,}.yml
+2. register.yml に XREA のホスト、アカウント、cron.sh のパスを設定
+3. $ ruby register.rb
+4. ~/.crontab に crontab と同じ書式で書く
+5. 実行されるのをじっと待つ
